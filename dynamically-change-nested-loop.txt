@@ -1,0 +1,3 @@
+Dynamically change the number of nested for loops
+
+https://stackoverflow.com/questions/20250789/dynamically-change-the-number-of-nested-for-loops
