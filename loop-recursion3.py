@@ -29,7 +29,7 @@ print("Recursion Test Starting:")
 def recursion(n):
 	global divider
 	global loop_rand
-
+#the variable "divider" is where to divide the output. In this case, divided at n == 20 since 100 / 5 = 20.
 	if n == 100:
 		divider = n / 5
 	if n == 1:
@@ -40,7 +40,7 @@ def recursion(n):
 		print ("n:", n, end = ' \n')
 		print ("Loop Random Number: ", loop_rand, end = ' \n')
 		if n == divider:
-			print('####### DIVIDED ######', end = '\n\n' )
+			print('\n\n ####### DIVIDED ######', end = '\n\n' )
 	return (n * recursion(n-1))
 
 print (recursion(100))
