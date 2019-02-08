@@ -34,6 +34,7 @@ def recursion(n):
 	if n == 1:
     		return 1
 	else:
+#the end = ' ' makes linebreak disabled when printing out n
     		print ("n:", n, end = ' ')
 	if n == divider:
 		print('####### DIVIDED ######', end = '\n\n' )
